@@ -34,8 +34,8 @@ pkg upgrade -y
 pkg install python git -y
 
 # Clone repository
-git clone https://github.com/Jabed-A1/cam-capture-v2.git
-cd cam-capture-v2
+git clone https://github.com/Jabed-A1/cam-capture-v3.git
+cd cam-capture-v3
 
 # Install dependencies
 pip install flask
@@ -59,7 +59,7 @@ sudo apt install python3 python3-pip git -y
 
 # Clone repository
 git clone https://github.com/Jabed-A1/cam-capture-v2.git
-cd cam-capture-v2
+cd cam-capture-v3
 
 # Install dependencies
 pip3 install flask
@@ -74,12 +74,13 @@ python3 launcher.py
 
 # Open PowerShell or CMD
 git clone https://github.com/Jabed-A1/cam-capture-v2.git
-cd cam-capture-v2
+cd cam-capture-v3
 
 # Install dependencies
 pip install flask
 
 # Run launcher
 python launcher.py
+
 
 
