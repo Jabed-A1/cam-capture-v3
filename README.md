@@ -51,36 +51,7 @@ python launcher.py
  
 
 
-# Update packages
-sudo apt update && sudo apt upgrade -y
 
-# Install Python & Git
-sudo apt install python3 python3-pip git -y
-
-# Clone repository
-git clone https://github.com/Jabed-A1/cam-capture-v2.git
-cd cam-capture-v3
-
-# Install dependencies
-pip3 install flask
-
-# Install cloudflared
-wget https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
-sudo dpkg -i cloudflared-linux-amd64.deb
-
-# Run launcher
-python3 launcher.py
-
-
-# Open PowerShell or CMD
-git clone https://github.com/Jabed-A1/cam-capture-v2.git
-cd cam-capture-v3
-
-# Install dependencies
-pip install flask
-
-# Run launcher
-python launcher.py
 
 ```
 # Linux (Kali, Ubuntu, etc.)
@@ -105,6 +76,7 @@ sudo dpkg -i cloudflared-linux-amd64.deb
 # Run launcher
 python3 launcher.py
 ```
+
 
 
 
